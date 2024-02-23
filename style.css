@@ -66,3 +66,18 @@ a:active {
 #Publish1FAIpQLSe9dssDNsiaOXK1BNuvZeFe6xxyCh2tlQw6nSA5-xKSsKoKtg {
     background: transparent !important;
 }       
+
+a.ff-powered-img img, img.ff-banner-image.ff-image {
+    visibility: hidden;
+    display: none;;
+}
+
+.ff-title {
+    text-transform: uppercase;
+    color: #D8392F !important;
+}
+
+#ff-compose {
+    --ff-paragraph-font:  "Raleway", sans-serif !important;
+    --ff-primary-700: #D8392F;
+}
