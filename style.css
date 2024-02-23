@@ -1,1 +1,33 @@
 /* your styles will go here!! */
+
+footer{
+    background-color: #FFE9D9;
+    font-family: "Raleway", sans-serif;
+    color: #D8392F;
+    margin: 0%;
+}
+
+h1{
+    color: #FFE9D9;
+    font-family: "Elsie", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color: #FFE9D9;
+    font-family: "Elsie", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    color: #FFE9D9;
+    font-family: "Raleway", sans-serif;
+    background-color: #D8392F;
+    margin: 0%;
+}
+
+#featuredWork{
+    background-color: #FFE9D9;
+}
