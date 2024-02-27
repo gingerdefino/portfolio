@@ -5,17 +5,20 @@ footer{
     font-family: "Raleway", sans-serif;
     color: #D8392F;
     margin: 0%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 h1{
     color: #FFE9D9;
     font-family: "Elsie", serif;
+    text-transform: none;
     font-weight: 400;
     font-style: normal;
-    font-size: 150px;
+    font-size: 145px;
+    padding: 0%;
+    margin-bottom: 0%;
+    margin-top: 200px;
 }
 
 h2{
@@ -23,30 +26,33 @@ h2{
     font-family: "Elsie", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 65px;
+    text-transform: none;
 }
 
 body{
     color: #FFE9D9;
     font-family: "Raleway", sans-serif;
     background-color: #D8392F;
+    text-transform: uppercase;
     margin: 0%;
     text-align: center;
 }
 
 #featuredWork{
     background-color: #FFE9D9;
-    padding: 4%;
+    padding: 45px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
 }
 .featuredIMG{
-    height: 475px;
+    height: 800px;
+    border: 30px solid #FFE9D9;
 }
 .profile{
-    height: 500px;
-    margin-top: 15%;
+    height: 650px;
+    margin-top: 120px;
     border-top:#FFE9D9 25px solid;
     border-bottom:#FFE9D9 85px solid;
     border-left:#FFE9D9 25px solid;
@@ -58,6 +64,8 @@ body{
 
 p{
     font-size: 18px;
+    margin-bottom: 200px;
+    margin-top: 0%;
 }
 
 a:link { 
