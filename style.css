@@ -5,8 +5,11 @@ footer{
     font-family: "Raleway", sans-serif;
     color: #D8392F;
     margin: 0%;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1{
@@ -19,6 +22,9 @@ h1{
     padding: 0%;
     margin-bottom: 0%;
     margin-top: 200px;
+}
+.red-font{
+    color: #D8392F;
 }
 
 h2{
@@ -53,10 +59,11 @@ body{
 .profile{
     height: 650px;
     margin-top: 120px;
-    border-top:#FFE9D9 25px solid;
-    border-bottom:#FFE9D9 85px solid;
-    border-left:#FFE9D9 25px solid;
-    border-right:#FFE9D9 25px solid;
+    border-top:#FFE9D9 30px solid;
+    border-bottom:#FFE9D9 110px solid;
+    border-left:#FFE9D9 30px solid;
+    border-right:#FFE9D9 30px solid;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .profile:hover{
     transform: rotate(8deg);
@@ -66,6 +73,9 @@ p{
     font-size: 18px;
     margin-bottom: 200px;
     margin-top: 0%;
+}
+.insta{
+    padding: 5%;
 }
 
 a:link { 
@@ -97,5 +107,8 @@ a.ff-powered-img img, img.ff-banner-image.ff-image {
 #ff-compose {
     --ff-paragraph-font:  "Raleway", sans-serif !important;
     --ff-primary-700: #D8392F;
+    --ff-field-bgcolor: rgb(255 255 255 / 50%);
+    width: 80%;
+    max-width: 642px;
 }
 
