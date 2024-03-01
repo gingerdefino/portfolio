@@ -1,9 +1,9 @@
 /* your styles will go here!! */
 
 footer{
-    background-color: #FFE9D9;
+    background-color: #D8392F;
     font-family: "Raleway", sans-serif;
-    color: #D8392F;
+    color: #FFE9D9;
     margin: 0%;
     padding-bottom: 5px;
     padding-top: 50px;
@@ -18,10 +18,11 @@ h1{
     text-transform: none;
     font-weight: 400;
     font-style: normal;
-    font-size: 145px;
+    font-size: 155px;
     padding: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 1.5%;
     margin-top: 200px;
+    letter-spacing: -5px;
 }
 .red-font{
     color: #D8392F;
@@ -32,8 +33,9 @@ h2{
     font-family: "Elsie", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 65px;
+    font-size: 75px;
     text-transform: none;
+    letter-spacing: -2px;
 }
 
 body{
@@ -63,7 +65,7 @@ body{
     border-bottom:#FFE9D9 110px solid;
     border-left:#FFE9D9 30px solid;
     border-right:#FFE9D9 30px solid;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 10px 6px 0px rgba(84, 28, 28, 0.35);
 }
 .profile:hover{
     transform: rotate(8deg);
@@ -76,6 +78,10 @@ p{
 }
 .insta{
     padding: 5%;
+}
+.envelope{
+    width:250px;
+    margin:0;
 }
 
 a:link { 
@@ -90,6 +96,23 @@ a:hover {
 a:active { 
     text-decoration: none; 
 }
+#contact-box{
+    background-color: #FFE9D9;
+    border-top:#FFE9D9 30px solid;
+    border-bottom:#FFE9D9 110px solid;
+    border-left:#FFE9D9 30px solid;
+    border-right:#FFE9D9 30px solid;
+    box-shadow: 0px 10px 6px 0px rgba(84, 28, 28, 0.35);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-box h2 {
+    margin-bottom: 0;
+}
+
 #Publish1FAIpQLSe9dssDNsiaOXK1BNuvZeFe6xxyCh2tlQw6nSA5-xKSsKoKtg {
     background: transparent !important;
 }       
@@ -112,3 +135,8 @@ a.ff-powered-img img, img.ff-banner-image.ff-image {
     max-width: 642px;
 }
 
+@media (min-width:1080px) {
+    #contact-box {
+        flex-wrap: nowrap;
+    }
+}
